@@ -19,6 +19,5 @@
 
 ### 리스트 예제
 
-#### <pre><code> #include<stdio.h>
-                   int main(){
-}</pre></code>
+####'''#include<stdio.h>
+int main(){}'''
