@@ -8,13 +8,13 @@
 
 ### *리스트의 종류
 
-#### >+Singly Linked List
+#### > +Singly Linked List
 ##### 노드안에 링크가 1개이고 단방향으로 진행하는 리스트
 
-### >+Doubly Linked List
+### > +Doubly Linked List
 #### 노드안에 링크가 2개이고 양방향으로 진행할 수 있는 리스트
 
-### >+Circular Linked List
+### > +Circular Linked List
 #### 마지막 노드가 첫 번째 노드를 가르켜서 계속 회전할 수 있게 만들어진 리스트
 
 ### 리스트 예제
