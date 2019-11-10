@@ -17,9 +17,9 @@
 
 > 1) Singly Linked List - 노드안에 링크가 1개이고 단방향으로 진행하는 리스트
 
-> 2)Doubly Linked List - 노드안에 링크가 2개이고 양방향으로 진행할 수 있는 리스트
+> 2) Doubly Linked List - 노드안에 링크가 2개이고 양방향으로 진행할 수 있는 리스트
 
-> 3)Circular Linked List - 마지막 노드가 첫 번째 노드를 가르켜서 계속 회전할 수 있게 만들어진 리스트
+> 3) Circular Linked List - 마지막 노드가 첫 번째 노드를 가르켜서 계속 회전할 수 있게 만들어진 리스트
 
 ### *리스트 예제
 
@@ -73,7 +73,7 @@ int main(void){
 
 > 2) Binary search tree - 왼쪽에서 오른쪽으로 갈 수록 노드값이 커지는 트리
 
-> 3)Balance tree - 너무 한 쪽으로 치우치지 않은 트리
+> 3) Balance tree - 너무 한 쪽으로 치우치지 않은 트리
 
 > 4) Complete binary tree - 트리에 노드가 가득 차있고, 맨 아래 트리는 맨 왼쪽부터 차례대로 차있는 트리 (맨 아래 오른쪽은 몇개 없어도 상관없음)
 
