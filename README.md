@@ -6,7 +6,7 @@
 
 #### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조
 
-![Alt text](C:\anu\Linkedlist.png)
+![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
 
 ### *리스트의 종류
 
