@@ -125,7 +125,7 @@ int main(void){                     // 트리 생성
 
 ### *그래프의 정의
 
-#### 그래프는 노드와 간선(Edge)으로 구성된 비선형 데이터 구조다. 노드는 정점(Vertex)이라고도하며 간선(Edge)은 그래프의 두 노드를 연결하는 선 또는 호다. 일반적으로 정점은 원으로 표현하고 간선은 화살표나 선분으로 표현한다. 그리고 변의 경우에는 특정한 수치를 가질 수 있는데 이를 가중치(Weighted value)라고 말한다.
+#### 그래프는 노드와 간선(Edge)으로 구성된 비선형 데이터 구조다. 노드는 정점(Vertex or Vertices)이라고도하며 간선(Edge)은 그래프의 두 노드를 연결하는 선 또는 호다. 일반적으로 정점은 원으로 표현하고 간선은 화살표나 선분으로 표현한다. 그리고 변의 경우에는 특정한 수치를 가질 수 있는데 이를 가중치(Weighted value)라고 말한다.
 
 ![graph](https://www.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
 
