@@ -19,7 +19,7 @@
 
 ### 리스트 예제
 
-'''ruby
+'''
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct list {
@@ -44,4 +44,5 @@ int main(void){
   printf("%d\n", root->d);
   root = root->p;
  }
-}'''
+}
+'''
