@@ -7,9 +7,9 @@
 #### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조
 |                |어레이|리스트|
 |----------------|------|-----|
-|메모리 할당 효율 |      |  O  |
-|데이터 저장 값   |  O   |     |
-|중간 값 추가/삭제|      |  O  |
+|메모리 할당 효율 |      |   O |
+|데이터 저장 값   |   O  |     |
+|중간 값 추가/삭제|      |   O |
 
 ![Linkedlist](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
 
@@ -87,3 +87,33 @@ int main(void){
 
 ### *트리 예제
 
+#### 트리 출력
+>.... 5  ....
+>..3.. ...7
+>.............8
+``` 
+#include <stdio.h>
+#include <stdlib.h>               /* malloc */
+typedef struct Tree {
+    struct Tr *l, *r;
+    int d;
+} T;
+void print(T* p){                 // 재귀함수라 생각하면 쉬움
+   printf("%d\n", p->d);
+   if(p->l) print(p->l);
+   if(p->r) print(p->r);    
+}
+T* mem(){                        //
+ T* p=(T*)malloc(sizeof(T));
+ p->l=p->r=NULL;
+ return(p);
+}
+int main(void){                     // 트리 생성
+    T *r, *r1, *r2, *l1;
+    l1= (T*)mem(); l1->d=3; 
+    r2= (T*)mem(); r2->d=8; 
+    r1= (T*)mem(); r1->d=7; r1->r=r2;
+    r= (T*)mem(); r->d=5; r->l=l1;  r->r=r1;
+    print(r);
+}
+```
