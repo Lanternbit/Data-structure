@@ -19,7 +19,7 @@
 ### -Circular Linked List
 #### 마지막 노드가 첫 번째 노드를 가르켜서 계속 회전할 수 있게 만들어진 리스트
 
-### 리스트 예제
+### *리스트 예제
 
 ```
 #include <stdio.h>
@@ -48,3 +48,37 @@ int main(void){
  }
 }
 ```
+
+
+## 트리(Tree)
+
+### *트리의 정의
+
+#### 부모 노드 밑에 여러 자식 노드가 연결되고, 자식 노드 각각에 다시 자식 노드가 연결되는 재귀적 형태의 자료구조다.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sorted_binary_tree_ALL.svg/400px-Sorted_binary_tree_ALL.svg.png)
+
+### *트리의 순회방법에 따른 분류
+
+#### -Pre-orde Traversal
+
+
+### *트리의 종류
+
+#### -Binary tree
+##### 최대로 많이 가진 자식노드의 수가 2개를 넘지않는 트리
+
+#### -Binary search tree
+##### 왼쪽에서 오른쪽으로 갈 수록 노드값이 커지는 트리
+
+#### -Balance tree
+##### 너무 한 쪽으로 치우치지 않은 트리
+
+#### -Complete binary tree
+##### 트리에 노드가 가득 차있고, 맨 아래 트리는 맨 왼쪽부터 차례대로 차있는 트리 (맨 아래 오른쪽은 몇개 없어도 상관없음)
+
+#### -Full binary tree
+##### 각각의 노드들이 가지고 있는 자식노드가 둘있거나 아예 없는 트리
+
+### *트리 예제
+
