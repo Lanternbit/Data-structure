@@ -8,7 +8,7 @@
 
 ### *리스트의 종류
 
-#### > +Singly Linked List
+     -Singly Linked List
 ##### 노드안에 링크가 1개이고 단방향으로 진행하는 리스트
 
 ### > +Doubly Linked List
