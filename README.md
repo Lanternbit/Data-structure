@@ -20,7 +20,7 @@
 ### 리스트 예제
 
 ```
-        #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 typedef struct list {
  int d;
