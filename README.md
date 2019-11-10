@@ -5,8 +5,13 @@
 ### *리스트의 정의
 
 #### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조
+|                |어레이|리스트|
+|----------------|------|-----|
+|메모리 할당 효율 |      |  O  |
+|데이터 저장 값   |  O   |     |
+|중간 값 추가/삭제|      |  O  |
 
-![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
+![Linkedlist](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
 
 ### *리스트의 종류
 
@@ -56,7 +61,7 @@ int main(void){
 
 #### 부모 노드 밑에 여러 자식 노드가 연결되고, 자식 노드 각각에 다시 자식 노드가 연결되는 재귀적 형태의 자료구조다.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sorted_binary_tree_ALL.svg/400px-Sorted_binary_tree_ALL.svg.png)
+![tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sorted_binary_tree_ALL.svg/400px-Sorted_binary_tree_ALL.svg.png)
 
 ### *트리의 순회방법에 따른 분류
 
