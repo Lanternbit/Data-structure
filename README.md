@@ -63,8 +63,11 @@ int main(void){
 ### *트리의 순회방법에 따른 분류 (위의 이미지 참조)
 
 > -Pre-orde Traversal
+
 > -In-order Traversal
+
 > -Post-order Traversal
+
 > -Level-order Traversal
 
 ### *트리의 종류
