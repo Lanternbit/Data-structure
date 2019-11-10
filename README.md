@@ -4,7 +4,7 @@
 
 ### *리스트의 정의
 
-#### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조
+#### 어레이 사이즈를 미리 지정하는 정적인 어레이와는 달리 데이터가 들어올때 마다 동적으로 메모리를 할당하는 자료구조다.
 |                |어레이|리스트|
 |----------------|------|-----|
 |메모리 할당 효율 |      |   O |
@@ -63,10 +63,12 @@ int main(void){
 
 ![tree](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sorted_binary_tree_ALL.svg/400px-Sorted_binary_tree_ALL.svg.png)
 
-### *트리의 순회방법에 따른 분류
+### *트리의 순회방법에 따른 분류 (위의 이미지 참조)
 
 #### -Pre-orde Traversal
-
+#### -In-order Traversal
+#### -Post-order Traversal
+#### -Level-order Traversal
 
 ### *트리의 종류
 
@@ -119,3 +121,55 @@ int main(void){                     // 트리 생성
     print(r);
 }
 ```
+
+
+## 그래프(Graph)
+
+### *그래프의 정의
+
+#### 그래프는 노드와 간선(Edge)으로 구성된 비선형 데이터 구조다. 노드는 정점(Vertex)이라고도하며 간선(Edge)은 그래프의 두 노드를 연결하는 선 또는 호다. 일반적으로 정점은 원으로 표현하고 간선은 화살표나 선분으로 표현한다. 그리고 변의 경우에는 특정한 수치를 가질 수 있는데 이를 가중치(Weighted value)라고 말한다.
+
+![graph](https://www.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
+
+### *그래프의 종류
+
+#### -유방향 그래프(Directed Graph)
+##### 이 존재하는 그래프 (간선을 화살표로 표시)
+
+#### -무방향 그래프(Undirected Graph)
+##### 방향을 가지지 않는 그래프 (간선을 선분으로 표시)
+
+#### -비가중치 그래프 
+##### 모든 간선에 가중치가 없는 그래프
+
+### *그래프의 방식
+
+> -인접 행렬(Adjacency Matrix)
+>  2차원 배열을 사용하는 방식
+
+> -인접 리스트(Adjacency List)
+>  리스트를 사용하는 방식
+
+### *그래프 예제
+
+```
+int a[1000][1000]; // 노드가 1000개 존재한다고 가정 1000 * 1000
+int n, m; // n = 노드의 갯수, m = 간선의 갯수
+int main(void) {
+  scanf_s("%d %d", &n, &m); // 노드의 갯수과 간선의 갯수를 입력 받습니다.
+  for (int i = 0; i < m; i++) { // 간선의 갯수만큼 반복
+     int x, y;
+     scanf_s("%d %d", &x, &y); // 서로 이어져 있는지 상태를 입력 받는다. ex) 1 2 로 입력할 경우 1 과 2 는 서로 연결이 됐다는 뜻
+     a[x][y] = 1;
+     a[y][x] = 1; // 방향성이 없기 때문에 서로 이어져 있음을 1 로 표시합니다.
+    }
+  for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= n; j++) {
+        printf("%d ", a[i][j]);
+	   }
+	   printf("\n"); // 연결되어 있는지 출력하여 확인합니다.
+	 }
+  system("pause");
+}
+```
+
